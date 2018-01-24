@@ -1,0 +1,199 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+j",
+    "command": "editor.action.joinLines"
+  },
+  {
+    "key": "ctrl+x k",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "redo"
+  },
+  {
+    "key": "ctrl+x ctrl+f",
+    "command": "extension.codeFileNav"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "editor.action.jumpToBracket"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "f1",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "alt+;",
+    "command": "editor.action.commentLine"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+]",
+    "command": "-editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+[",
+    "command": "editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+[",
+    "command": "-editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+;",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+;",
+    "command": "-editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "projectManager.listProjects"
+  },
+  {
+    "key": "alt+cmd+p",
+    "command": "-projectManager.listProjects"
+  },
+  //---------------------- custom emacs bindings
+  {
+    "key": "cmd+f",
+    "command": "emacs.cursorWordRight",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+b",
+    "command": "emacs.cursorWordLeft",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+v",
+    "command": "emacs.cursorPageUp",
+    "when": "editorTextFocus && !suggestWidgetVisible"
+  },
+  {
+    "key": "cmd+v",
+    "command": "closeFindWidget",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "key": "cmd+shift+.",
+    "command": "emacs.cursorBottom",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+.",
+    "command": "closeFindWidget",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "key": "cmd+shift+,",
+    "command": "emacs.cursorTop",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+,",
+    "command": "closeFindWidget",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "key": "cmd+g g",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "cmd+g n",
+    "command": "editor.action.marker.next"
+  },
+  {
+    "key": "cmd+g p",
+    "command": "editor.action.marker.prev"
+  },
+  {
+    "key": "cmd+g g",
+    "command": "closeFindWidget",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "key": "cmd+shift+5",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+cmd+n",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "deleteWordRight",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+w",
+    "command": "emacs.M-w",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "closeFindWidget",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "key": "cmd+;",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+;",
+    "command": "closeFindWidget",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "key": "cmd+x",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "deleteWordLeft",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-emacs.C-j",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
